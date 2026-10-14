@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bean schema -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- bean definition -->
+<bean id="Employee" class="Spring.EmployeeDetails.Employee">
+	<property name="name" value="DeviSrinivas"/>
+	<property name="department" value="CSE"/>
+	<property name="empId" value="213B1A0520"/>
+	<property name="salary" value="100000"/>
+	<property name="experience" value="1"/>
+</bean>
+</beans>
